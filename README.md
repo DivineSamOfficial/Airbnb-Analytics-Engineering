@@ -6,6 +6,15 @@ This project involves ingesting Airbnb data into Amazon S3, transforming it usin
 ## Architecture
 ![Architecture Diagram](https://github.com/DivineSamOfficial/Airbnb-Anlaytics-Engineering/blob/main/Sys%20Arch.jpg)
 
+## DAG
+![DAG](https://github.com/DivineSamOfficial/Airbnb-Anlaytics-Engineering/blob/main/DAG.png)
+
+## Lineage Graph
+![lineage Graph](https://github.com/DivineSamOfficial/Airbnb-Anlaytics-Engineering/blob/main/Lineage%20Graph.png)
+
+## Dashboard
+![Dashboard](https://github.com/DivineSamOfficial/Airbnb-Anlaytics-Engineering/blob/main/Dashboard.jpg)
+
 ## Implementation Details
 
 ### Data Pipeline
