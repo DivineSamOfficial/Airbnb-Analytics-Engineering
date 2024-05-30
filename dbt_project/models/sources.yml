@@ -1,0 +1,34 @@
+version: 2
+
+sources:
+  - name: airbnb
+    schema: raw
+    tables:
+      - name: listings
+        description: Source listings 
+        identifier: raw_listings
+        columns:
+          - name: room_type
+            description: Categorical check for room type
+            tests:
+              - dbt_expectations.expect_column_distinct_count_to_equal:
+                  value: 4
+
+          - name: price
+            description: Regular expression match test for price
+            tests:
+              - dbt_expectations.expect_column_values_to_match_regex:
+                  regex: "^\\\\$[0-9][0-9\\\\.]+$"
+
+
+      - name: hosts
+        description: Source hosts
+        identifier: raw_hosts
+
+      - name: reviews
+        description: Source reviews
+        identifier: raw_reviews
+        loaded_at_field: date
+        freshness:
+          warn_after: {count: 1, period: hour}
+          error_after: {count: 24, period: hour}

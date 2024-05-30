@@ -1,0 +1,5 @@
+Running with dbt=1.7.15
+Registered adapter: snowflake=1.7.1
+Unable to do partial parsing because config vars, config profile, or config target have changed
+Found 8 models, 2 snapshots, 1 analysis, 22 tests, 1 seed, 3 sources, 1 exposure, 0 metrics, 813 macros, 0 groups, 0 semantic models
+

@@ -1,0 +1,8 @@
+{
+    "dbt.queryLimit": 500,
+    "dbt.enableNewQueryPanel": true,
+    "files.associations": {
+        "*.yml": "yaml",
+        "*.yaml": "yaml"
+    }
+}
