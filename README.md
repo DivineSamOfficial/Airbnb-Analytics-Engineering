@@ -4,7 +4,7 @@
 This project involves ingesting Airbnb data into Amazon S3, transforming it using Snowflake and dbt, orchestrating workflows with Dagster, and visualizing data with Preset.
 
 ## Architecture
-![Architecture Diagram](assets/architecture_diagram.jpg)
+![Architecture Diagram](https://github.com/DivineSamOfficial/Airbnb-Anlaytics-Engineering/blob/main/Sys%20Arch.jpg)
 
 ## Implementation Details
 
