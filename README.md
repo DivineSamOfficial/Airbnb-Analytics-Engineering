@@ -1,4 +1,4 @@
-# Airbnb Anlytics Engineering and Data Ware housing 
+# Airbnb Analytics Engineering and Data Ware housing 
 
 ## Project Overview
 This project involves ingesting Airbnb data into Amazon S3, transforming it using Snowflake and dbt, orchestrating workflows with Dagster, and visualizing data with Preset.
